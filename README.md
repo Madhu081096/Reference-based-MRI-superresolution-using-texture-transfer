@@ -18,6 +18,8 @@ We apply our scheme in different superresolution architectures, observing improv
 
 5. The swapped features are then concatenated to the initial Convolutional layer of the super-resolution network.
 
+![alt text](https://github.com/Madhu081096/Reference-based-MRI-superresolution-using-texture-transfer/blob/main/Architecture.png)
+
 
 ## Dataset
 
