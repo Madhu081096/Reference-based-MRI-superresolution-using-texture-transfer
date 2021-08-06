@@ -39,8 +39,7 @@ Qualitative result
 
 ## Citation
 
-@INPROCEEDINGS{9433961,
-
+@INPROCEEDINGS{9433961,  
   author={Madhu Mithra, K K and Ramanarayanan, Sriprabha and Ram, Keerthi and Sivaprakasam, Mohanasankar},  
   booktitle={2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI)},  
   title={Reference-Based Texture Transfer For Single Image Super-Resolution Of Magnetic Resonance Images},   
