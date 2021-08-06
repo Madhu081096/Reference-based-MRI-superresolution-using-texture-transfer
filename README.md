@@ -8,14 +8,24 @@ We apply our scheme in different superresolution architectures, observing improv
 
 ## Method
 
-Morlet wavelet transform is used for computing the texture features of the image.
+1. Morlet wavelet transform is used for computing the texture features of the image.
 
-Feature swapping is the key procedure in the proposed method and has two steps - Dense matching and texture transfer.
+2. Feature swapping is the key procedure in the proposed method and has two steps - Dense matching and texture transfer.
 
-Dense matching – takes the wavelet transform of LR input and blurred reference, and obtains the matched correspondences by taking small patches. The indices of the reference texture patches that give the maximum correspondence scores are stored
+3. Dense matching – takes the wavelet transform of LR input and blurred reference, and obtains the matched correspondences by taking small patches. The indices of the reference texture patches that give the maximum correspondence scores are stored
 
-Texture transfer – the stored indices are used to locate the patches of corresponding texture feature patches of HR reference and these patches are placed at the appropriate positions replacing the LR image features. 
+4. Texture transfer – the stored indices are used to locate the patches of corresponding texture feature patches of HR reference and these patches are placed at the appropriate positions replacing the LR image features. 
 
-The swapped features are then concatenated to the initial Convolutional layer of the super-resolution network.
-![image](https://user-images.githubusercontent.com/37436778/128494282-9031ff78-608b-4ff7-996f-928171134c4c.png)
+5. The swapped features are then concatenated to the initial Convolutional layer of the super-resolution network.
+
+
+## Dataset
+
+1. [Zenodo dataset](https://zenodo.org/record/22304)
+2. [Spineweb - Dataset 1](http://spineweb.digitalimaginggroup.ca/Index.php?n=Main.Datasets#Dataset_1.3A_Cross_Modality_Spinal_Images_for_Spine_Workshop)
+
+## Results
+
+
+
 
